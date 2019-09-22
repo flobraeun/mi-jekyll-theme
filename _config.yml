@@ -41,8 +41,13 @@ deployurl: https://th-koeln.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "" # the subpath of your site, e.g. /blog
 
-heroimage: "/images/hero.svg"
+# Set hero background image options
+# heroimage: image file from the assets/images folder
+# heroimage_contain: should the background image have the contain css size option
+# heroimage_size: size of the hero area. Options are large, medium or null for small
+heroimage: "hero.svg"
 heroimage_contain: true
+heroimage_size: "large"
 
 # Edit items in the navigation here
 navigation:

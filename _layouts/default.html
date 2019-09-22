@@ -16,7 +16,7 @@
 </head>
 
 <body data-url="{{page.url}}">
-  <section class="hero is-info is-large"">
+  <section class="hero is-info {% if site.heroimage_size == 'medium' %}is-medium{% else if site.heroimage_size == 'medium' %}is-large{% endif %}">
     <!-- Hero header: will stick at the top -->
     <div class="hero-head">
       <header class="nav">
