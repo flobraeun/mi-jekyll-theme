@@ -42,6 +42,7 @@ deployurl: https://th-koeln.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 heroimage: "/images/hero.svg"
+heroimage_contain: true
 
 # Edit items in the navigation here
 navigation:

@@ -2,6 +2,10 @@
 --- 
 @import "lib/variables-mi-colors";
 
+// Choose hero color
+// Options are:
+// $mi-blau, $mi-pink, $mi-gruen, $mi-lila, $mi-black, $mi-grau, $mi-bg
+
 $hero-color: $mi-blau;
 
 @import "mi-jekyll";
