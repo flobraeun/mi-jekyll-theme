@@ -46,7 +46,7 @@
     {% assign heroimage = heroimage | prepend: site.baseurl %}
     {% assign teaserclass = "has-gradient" %}
     {% endif %}
-    <div class="hero-body is-header {{teaserclass}}" style="background-image: url({{heroimage}}); {% if heroimage_contain { %}background-size: contain; background-repeat: no-repeat; background-position: center center;{% endif %}">
+    <div class="hero-body is-header {{teaserclass}}" style="background-image: url({{heroimage}}); {% if heroimage_contain == true %}background-size: contain; background-repeat: no-repeat; background-position: center center;{% endif %}">
         <div class="container">
         <h1 class="title is-1">
           {{ site.name }}
