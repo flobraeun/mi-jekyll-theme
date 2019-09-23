@@ -12,7 +12,16 @@
 /**************/
 
 .button {
-  font-size: $bfs;
+    font-size: $bfs;
+    background-color: $mi-pink;
+    color: $mi-bg;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 5px;
+    padding: 1px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
 }
 
 body,
