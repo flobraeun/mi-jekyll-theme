@@ -65,7 +65,7 @@
     <div class="container">
       <ul class="menu-list">
         {% for item in site.navigation %}
-        <li><a href="{{ site.baseurl }}/{{item.url}}" class="nav-item">{{item.name}}</a></li>
+          <li><a class="nav-item" href="{% if item.path %}{{ site.baseurl }}/{{item.path}}{% else %}{{item.url}}{% endif %}" class="nav-item">{{item.name}}</a></li>
         {% endfor %}
       </ul>
     </div>
