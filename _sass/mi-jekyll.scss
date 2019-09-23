@@ -66,6 +66,11 @@ html {
 /**************/
 
 .is-header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
   .title {
     font-weight: 100;
     font-size: $bfs * 2;

@@ -50,11 +50,11 @@ heroimage_contain: true
 heroimage_size: "large"
 
 # Edit items in the navigation here
+# Use path for links in this site and url for exernal links
 navigation:
-  - url: timetable/
+  - path: timetable/
     name: Zeitplan
-
-  - url: faq/
+  - path: faq/
     name: FAQ
 
 #
