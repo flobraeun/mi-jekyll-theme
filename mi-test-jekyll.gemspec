@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "mi-test-jekyll"
-  spec.version       = "0.3.25"
+  spec.version       = "0.3.26"
   spec.authors       = ["flobraeun"]
   spec.email         = [""]
 
