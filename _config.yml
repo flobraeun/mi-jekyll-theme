@@ -14,22 +14,6 @@ avatar: https://www.medieninformatik.th-koeln.de/img/mi-box-100.png
 # Where are we?
 timezone: Europe/Berlin
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github:
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: micologne
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: mikoeln
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: https://th-koeln.github.io/
@@ -54,8 +38,20 @@ heroimage_size: "large"
 navigation:
   - path: timetable/
     name: Zeitplan
+  - path: angebote/
+    name: Veranstaltungen
+  - path: formate/
+    name: Formate
   - path: faq/
     name: FAQ
+  - path: links/
+    name: Links
+  - url: https://github.com/th-koeln/mi-master-wtw/issues/new
+    name: Frage stellen
+  - url: https://github.com/th-koeln/mi-master-wtw/wiki
+    name: WTW Wiki
+  - url: https://ilias.th-koeln.de/ilias.php
+    name: Ilias
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -124,9 +120,9 @@ collections:
   snippets:
     output: false
   links:
-    output: false
+    output: true
   news:
-    output: false
+    output: true
 
 defaults:
   -
